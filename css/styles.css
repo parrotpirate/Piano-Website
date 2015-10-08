@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: helvetica;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header .logo {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.header .name {
+  font-size: 20px;
+  font-weight: lighter;
+  float: left;
+  height: 100%;
+  margin-left: 156px;
+  padding-top: 14px;
+}
+
+.header .social-links {
+  float: right;
+}
+
+.header .social-links ul {
+  margin-top: 10px;
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.header .social-links ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 0 10px 5px;
+  padding-top: 7px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.header .social-links ul li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: orange;
+}
+
+.header .header-links {
+  float: right;
+}
+
+.header .header-links ul {
+  list-style-type: none;
+}
+
+.header .header-links ul li {
+  font-size: 14px;
+  display: inline-block;
+  padding-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header .header-links ul li:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+.main {
+  font-family: helvetica;
+  height: 100%;
+  margin-top: 0;
+  padding: 5% 25% 0 7%;
+  color: white;
+  background-color: black;
+}
+
+.main .title {
+  font-family: 'helvetica';
+  font-size: 30px;
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.main .description {
+  line-height: 1.7;
+}
